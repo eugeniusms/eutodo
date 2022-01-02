@@ -7,6 +7,11 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>EuTodo List | Home</title>
+      <meta name="keywords" content="todo"/>
+    </Head>
     <div className={styles.container}>
       <h1 className={styles.title}>Homepage</h1>
       <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies nulla fermentum pellentesque tincidunt. Duis cursus mattis convallis.</p>
@@ -15,5 +20,6 @@ export default function Home() {
         <a className={styles.btn}>See Todolist</a>
       </Link>
     </div>
+    </>
   )
 }
