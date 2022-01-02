@@ -7,12 +7,12 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
-      <h1>Homepage</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies nulla fermentum pellentesque tincidunt. Duis cursus mattis convallis.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies nulla fermentum pellentesque tincidunt. Duis cursus mattis convallis.</p>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Homepage</h1>
+      <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies nulla fermentum pellentesque tincidunt. Duis cursus mattis convallis.</p>
+      <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies nulla fermentum pellentesque tincidunt. Duis cursus mattis convallis.</p>
       <Link href="/todo">
-        <a>See Todolist</a>
+        <a className={styles.btn}>See Todolist</a>
       </Link>
     </div>
   )
